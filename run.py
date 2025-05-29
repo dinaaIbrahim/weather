@@ -88,7 +88,6 @@ if st.session_state.get('weather'):
     st.subheader("🌤️ Weather Details")
     st.text(st.session_state.weather_details)
 
-
 if st.session_state.get('final_response'):
     st.subheader("💡 Recommendations")
     st.markdown(st.session_state.final_response)

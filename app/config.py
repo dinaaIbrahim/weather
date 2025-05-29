@@ -32,4 +32,4 @@ def setup_rag():
     faiss_db = FAISS.from_documents(chunks, embedding_model)
     faiss_db.save_local("rag_faiss_index")
     faiss_db = FAISS.load_local("rag_faiss_index", embedding_model, allow_dangerous_deserialization=True)
-    return faiss_db.as_retriever()
+    return faiss_db.as_retriever(search_kwargs={"k": 10})
