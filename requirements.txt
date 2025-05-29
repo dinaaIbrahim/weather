@@ -1,0 +1,5 @@
+langchain==0.3.25
+langchain_community==0.3.24
+langchain_huggingface==0.2.0
+Requests==2.32.3
+streamlit==1.45.1
