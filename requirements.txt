@@ -3,3 +3,6 @@ langchain_community==0.3.24
 langchain_huggingface==0.2.0
 Requests==2.32.3
 streamlit==1.45.1
+langchain-together==0.3.0
+pypdf==5.5.0
+faiss-cpu==1.11.0
